@@ -10,7 +10,7 @@ function searchWeather() {
   };
   var http = new XMLHttpRequest();
   var apiKey = '678c4d7c3a7e0b09e8d5b7bf414af213';
-  var url = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey;
+  var url = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiKey;
   var method = 'GET';
 
   http.open(method, url);
